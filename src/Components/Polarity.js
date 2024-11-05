@@ -64,8 +64,8 @@ export default function Polarity() {
   const [data, setData] = useState([]);
   const configuration = {
     region: "us-east-1",
-    secretAccessKey: "zyUFeAKCvNJ5Qe4EfFY5V/7ecY8Uf9fVPMOWDojr",
-    accessKeyId: "AKIA2O7OWW2KNTGTTLGN",
+    secretAccessKey: "*******",
+    accessKeyId: "******",
   };
   AWS.config.update(configuration);
   useEffect(() => {
